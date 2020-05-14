@@ -1,0 +1,38 @@
+.date-picker {
+    grid-column: datepicker;
+    box-shadow: 0 0 20px 4px #e7e7e7;
+    padding: 16px;
+}
+
+.month {
+    text-align: left;
+    margin-bottom: 32px;
+    padding: 0 24px;
+}
+.week-days {
+    margin-bottom: 32px;
+}
+.week, .week-days {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.week span {
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.week span.selected {
+    color: #ffffff;
+}
+
+.week span.selected .selected-circle:before {
+    content: '';
+    background: #46bcf7;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    right: 22%;
+    top: 4px;
+}

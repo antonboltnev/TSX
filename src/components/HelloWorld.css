@@ -12,3 +12,23 @@ h3 {
   a {
     color: #42b983;
   }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.right, .left {
+  background: #e7e7e7;
+  padding: 16px;
+}
+
+/*.right {*/
+/*  grid-column: right;*/
+/*}*/
+
+/*.left {*/
+/*  grid-column: left;*/
+/*}*/

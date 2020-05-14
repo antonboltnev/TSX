@@ -1,0 +1,5 @@
+.task-form {
+    grid-column: taskform;
+    box-shadow: 0 0 20px 4px #e7e7e7;
+    padding: 16px;
+}
